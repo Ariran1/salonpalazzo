@@ -4721,7 +4721,7 @@ button:focus { outline: none; }
 
 .side-navigation--float { -webkit-transform: translateX(-100%); -ms-transform: translateX(-100%); transform: translateX(-100%); }
 
-.logo { position: relative; width: 250px; height: 75px; margin: 0 0 150px 30px; background: url(http://salonpalazzo.ru/img/logo.png) 0 0 no-repeat; font-size: 0; }
+.logo { position: relative; width: 250px; height: 75px; margin: 0 0 150px 30px; background: url("http://salonpalazzo.ru/static/img/logo.png") 0 0 no-repeat; font-size: 0; }
 
 .logo a { position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
 

@@ -2178,7 +2178,7 @@ body::before { position: fixed; top: -60px; left: 0; z-index: 9; width: 100%; he
 
 .main-contacts .slider li { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-.main-contacts__content { padding-top: 40px; padding-left: 30px; padding-right: 30px; }
+.main-contacts__content { padding-left: 30px; padding-right: 30px; }
 
 .main-contacts__address { color: #fff; padding-top: 20px; }
 
@@ -2372,7 +2372,7 @@ body::before { position: fixed; top: -60px; left: 0; z-index: 9; width: 100%; he
 
 .for-designers__description { margin-bottom: 80px; }
 
-.for-designers__icon { display: block; height: 53px; margin: 0 auto 40px; background: url(../img/icons-rastr.png) 0 0 no-repeat; }
+.for-designers__icon { display: block; height: 53px; margin: 0 auto 40px; background: url(http://salonpalazzo.ru/img/icons-rastr.png) 0 0 no-repeat; }
 
 .for-designers__icon--1 { width: 80px; background-position: 0 0; }
 

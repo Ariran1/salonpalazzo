@@ -2871,7 +2871,7 @@ td, th { padding: 0; }
   .table td, .table th { background-color: #fff !important; }
   .table-bordered th, .table-bordered td { border: 1px solid #ddd !important; } }
 
-@font-face { font-family: 'Glyphicons Halflings'; src: url("../fnt/glyphicons-halflings-regular.eot"); src: url("../fnt/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fnt/glyphicons-halflings-regular.woff2") format("woff2"), url("../fnt/glyphicons-halflings-regular.woff") format("woff"), url("../fnt/glyphicons-halflings-regular.ttf") format("truetype"), url("../fnt/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+@font-face { font-family: 'Glyphicons Halflings'; src: url("http://salonpalazzo.ru/fnt/glyphicons-halflings-regular.eot"); src: url("http://salonpalazzo.ru/fnt/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("http://salonpalazzo.ru/fnt/glyphicons-halflings-regular.woff2") format("woff2"), url("http://salonpalazzo.ru/fnt/glyphicons-halflings-regular.woff") format("woff"), url("http://salonpalazzo.ru/fnt/glyphicons-halflings-regular.ttf") format("truetype"), url("http://salonpalazzo.ru/fnt/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
 .glyphicon { position: relative; top: 1px; display: inline-block; font-family: 'Glyphicons Halflings'; font-style: normal; font-weight: normal; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
@@ -4619,15 +4619,15 @@ h3 { font-size: 30px; margin-bottom: 25px; font-family: 'PT Sans', Arial, Helvet
 
 p { color: #424242; }
 
-@font-face { font-family: 'Geometria Light'; src: url("../fnt/GeometriaLight.eot"); src: url("../fnt/GeometriaLight.eot") format("embedded-opentype"), url("../fnt/GeometriaLight.woff2") format("woff2"), url("../fnt/GeometriaLight.woff") format("woff"), url("../fnt/GeometriaLight.ttf") format("truetype"), url("../fnt/GeometriaLight.svg#GeometriaLight") format("svg"); }
+@font-face { font-family: 'Geometria Light'; src: url("http://salonpalazzo.ru/fnt/GeometriaLight.eot"); src: url("http://salonpalazzo.ru/fnt/GeometriaLight.eot") format("embedded-opentype"), url("http://salonpalazzo.ru/fnt/GeometriaLight.woff2") format("woff2"), url("http://salonpalazzo.ru/fnt/GeometriaLight.woff") format("woff"), url("http://salonpalazzo.ru/fnt/GeometriaLight.ttf") format("truetype"), url("http://salonpalazzo.ru/fnt/GeometriaLight.svg#GeometriaLight") format("svg"); }
 
-@font-face { font-family: 'Geometria'; src: url("../fnt/BrownfoxGeometria.eot"); src: url("../fnt/BrownfoxGeometria.eot") format("embedded-opentype"), url("../fnt/BrownfoxGeometria.woff2") format("woff2"), url("../fnt/BrownfoxGeometria.woff") format("woff"), url("../fnt/BrownfoxGeometria.ttf") format("truetype"), url("../fnt/BrownfoxGeometria.svg#BrownfoxGeometria") format("svg"); }
+@font-face { font-family: 'Geometria'; src: url("http://salonpalazzo.ru/fnt/BrownfoxGeometria.eot"); src: url("http://salonpalazzo.ru/fnt/BrownfoxGeometria.eot") format("embedded-opentype"), url("http://salonpalazzo.ru/fnt/BrownfoxGeometria.woff2") format("woff2"), url("http://salonpalazzo.ru/fnt/BrownfoxGeometria.woff") format("woff"), url("http://salonpalazzo.ru/fnt/BrownfoxGeometria.ttf") format("truetype"), url("http://salonpalazzo.ru/fnt/BrownfoxGeometria.svg#BrownfoxGeometria") format("svg"); }
 
-@font-face { font-family: 'Geometria Medium'; src: url("../fnt/BrownfoxGeometriaMedium.eot"); src: url("../fnt/BrownfoxGeometriaMedium.eot") format("embedded-opentype"), url("../fnt/BrownfoxGeometriaMedium.woff2") format("woff2"), url("../fnt/BrownfoxGeometriaMedium.woff") format("woff"), url("../fnt/BrownfoxGeometriaMedium.ttf") format("truetype"), url("../fnt/BrownfoxGeometriaMedium.svg#BrownfoxGeometriaMedium") format("svg"); }
+@font-face { font-family: 'Geometria Medium'; src: url("http://salonpalazzo.ru/fnt/BrownfoxGeometriaMedium.eot"); src: url("http://salonpalazzo.ru/fnt/BrownfoxGeometriaMedium.eot") format("embedded-opentype"), url("http://salonpalazzo.ru/fnt/BrownfoxGeometriaMedium.woff2") format("woff2"), url("http://salonpalazzo.ru/fnt/BrownfoxGeometriaMedium.woff") format("woff"), url("http://salonpalazzo.ru/fnt/BrownfoxGeometriaMedium.ttf") format("truetype"), url("http://salonpalazzo.ru/fnt/BrownfoxGeometriaMedium.svg#BrownfoxGeometriaMedium") format("svg"); }
 
-@font-face { font-family: 'PT Serif'; font-style: italic; src: url("../fnt/ptf56f_w.eot"); src: local("PT Serif Italic"), url("../fnt/ptf56f_w.woff") format("woff"), url("../fnt/ptf56f_w.ttf") format("truetype"), url("../fnt/ptf56f_w.svg#PTSerif-Italic") format("svg"); }
+@font-face { font-family: 'PT Serif'; font-style: italic; src: url("http://salonpalazzo.ru/fnt/ptf56f_w.eot"); src: local("PT Serif Italic"), url("http://salonpalazzo.ru/fnt/ptf56f_w.woff") format("woff"), url("http://salonpalazzo.ru/fnt/ptf56f_w.ttf") format("truetype"), url("http://salonpalazzo.ru/fnt/ptf56f_w.svg#PTSerif-Italic") format("svg"); }
 
-@font-face { font-family: 'PT Sans'; src: url("../fnt/pts55f_w.eot"); src: local("PT Sans"), url("../fnt/PTS55F_W.woff") format("woff"), url("../fnt/PTS55F_W.ttf") format("truetype"), url("../fnt/PTS55F_W.svg#PTSans-Regular") format("svg"); }
+@font-face { font-family: 'PT Sans'; src: url("http://salonpalazzo.ru/fnt/pts55f_w.eot"); src: local("PT Sans"), url("http://salonpalazzo.ru/fnt/PTS55F_W.woff") format("woff"), url("http://salonpalazzo.ru/fnt/PTS55F_W.ttf") format("truetype"), url("http://salonpalazzo.ru/fnt/PTS55F_W.svg#PTSans-Regular") format("svg"); }
 
 button { margin: 0; padding: 0; background: none; border: none; }
 

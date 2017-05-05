@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Каталог &mdash; ПАЛАЦЦО. Интерьерный салон</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="author" content="" />
+	<meta name="description" content="" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+	<link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-ipad-retina.png" />
+
+	<!-- <link rel="shortcut icon" href="favicon.png" /> -->
+
+	
+	<link rel="stylesheet" href="css/main.css" media="all" />
+	
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body class="inner-page inner-page--catalog">
+	<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+		<symbol id="map-small" viewBox="0 0 18 25">
+			<path d="M9,7.5c0.8,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5c-0.8,0-1.5-0.7-1.5-1.5C7.5,8.2,8.2,7.5,9,7.5 M9,6C7.3,6,6,7.3,6,9c0,1.7,1.3,3,3,3c1.7,0,3-1.3,3-3C12,7.3,10.7,6,9,6L9,6z" />
+			<path d="M9,1.5c4.1,0,7.5,3.4,7.5,7.5c0,7.2-5.4,12.4-7.5,14.1c-2.1-1.7-7.5-7-7.5-14.1C1.5,4.9,4.9,1.5,9,1.5 M9,0C4,0,0,4,0,9c0,9.7,9,16,9,16c0,0,9-6.2,9-16C18,4,14,0,9,0L9,0z" />
+		</symbol>
+
+		<symbol id="desire" viewBox="0 0 26 14">
+			<path d="M24.1,0.3L23.8,0L16,3.3h-5.8L2.3,0L2,0.3C0.4,1.9,0,4.8,0,7s0.4,5.1,2,6.7L2.2,14l7.8-3.3h5.8l7.8,3.3l0.2-0.3c1.7-1.7,2-4.6,2-6.7C26.1,4.8,25.8,1.9,24.1,0.3z M9,10l-6.4,2.8c-1.4-1.7-1.6-4-1.6-6c0-1.9,0.4-4.1,1.5-5.7L9,3.9V10zM16,10h-6V4h6V10z M23.5,12.9L17,10.1V4l6.5-2.8c1.4,1.7,1.6,4,1.6,6C25.2,9.1,24.8,11.2,23.5,12.9z" />
+		</symbol>
+	</svg>
+
+	<button type="button" class="float-nav js-toggle-nav">
+		<ins></ins>
+		<ins></ins>
+		<ins></ins>
+	</button>
+
+	<button type="button" class="float-desire js-toggle-desire on-dark">
+		<svg class="icon">
+			<use xlink:href="#desire" />
+		</svg>
+
+		<div class="close"></div>
+	</button>
+<!--
+	<div class="inner-bg">
+		<a href="index.html"><div class="logo"></div></a>
+	</div> -->
+
+	<aside class="side-navigation side-navigation--inner">
+		<button type="button" class="sub-close-nav">
+			<div class="close close--nav js-close-side"></div>
+		</button>
+
+		<h1 class="logo logo--light"><a href="/" title="ПАЛАЦЦО. Интерьерный салон"></a></h1>
+
+				<nav class="nav">
+			<ul>
+				<li ><a href="/company/"><span>Компания</span></a></li>
+				<li ><a href="/salons/"><span>Салоны</span></a></li>
+				<li ><a href="/design/"><span>Scavolini</span></a></li>
+				<li class="is-active"><a href="/catalog/"><span>Каталог</span></a></li>
+				<li ><a href="/brands/"><span>Бренды</span></a></li>
+				<li ><a href="/calendar/"><span>Календарь и фото</span></a></li>
+				<li ><a href="/designers/"><span>Дизайнеры о...</span></a></li>
+			<li>
+				<a href="http://projects.salonpalazzo.ru/project_index.html">
+					<span>Проекты</span>
+				</a>
+			</li>
+			</ul>
+		</nav>
+
+
+	</aside>
+
+	<aside class="side-feedback"> <!-- is-visible - class for visible state -->
+		<button type="button" class="sub-close-nav">
+			<div class="close close--nav js-close-side"></div>
+		</button>
+
+		<ul>
+			<!-- <li> -->
+				<!-- <a href="/salons/"><span>Посетить салон</span></a> -->
+			<!-- </li> -->
+			<li>
+				<a href="#" class="js-side-call"><span>позвонить</span></a>
+
+				<div class="side-feedback__inner">
+					<div class="side-feedback__number">+7 (863) 292 34 07</div>
+
+					<div class="side-feedback__call">
+						<form action="/">
+							<div class="side-feedback__call-inputs">
+								<label for="call">позвонить вам</label>
+								<input type="text" name="call" id="call" value="+7">
+							</div>
+
+							<div class="side-feedback__call-controls">
+								в удобное время <a href="#">указать</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</li>
+<!--             <li>
+				<a href="#"><span>Заказать мебель</span></a>
+			</li> -->
+			<li>
+				<a href="#"><span>я — дизайнер</span></a>
+			</li>
+		</ul>
+	</aside>
+
+	
+	<div class="main-wrapper main-wrapper--catalog">
+		<div class="main main--inner main--catalog">
+			<section class="page catalog">
+				<div class="catalog-navigation catalog-navigation--page">
+					<div class="catalog-navigation__shell">
+						<div class="catalog-navigation__category is-static">
+							<div class="catalog-navigation__wrapper">
+								<a class="catalog-navigation__title js-toggle-category"><span class="catalog-navigation__value">Зоны</span> <div class="catalog-navigation__arrow"><svg class="icon" style="width: 16px;height: 16px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></div></a>
+
+								<div class="catalog-navigation__items catalog-navigation__items--big">
+									<a href="/catalog/category/?zone=1"><div>Гостиные</div></a>
+									<a href="/catalog/category/?zone=2"><div>Спальни</div></a>
+									<a href="/catalog/category/?zone=6"><div>Кабинет</div></a>
+									<a href="/catalog/category/?zone=7"><div>Кухни</div></a>
+									<a href="/catalog/category/?zone=9"><div>Столовая</div></a>
+									<a href="/catalog/category/?zone=10"><div>Ванная комната</div></a>
+									<a href="/catalog/category/?zone=11"><div>Детские</div></a>
+									<a href="/catalog/category/?zone=12"><div>Отделка</div></a>
+									<a href="/catalog/category/?zone=13"><div>Освещение</div></a>
+									<a class="more" href="#"><div><span>...</span></div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="catalog-navigation__category is-static">
+							<div class="catalog-navigation__wrapper">
+								<a class="catalog-navigation__title js-toggle-category"><span class="catalog-navigation__value">Предметы</span> <div class="catalog-navigation__arrow"><svg class="icon" style="width: 16px;height: 16px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></div></a>
+
+								<div class="catalog-navigation__items">
+									<a href="/catalog/category/?piece=1">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/5ecebe40bf7dd431ff822872f45b1d88.png">
+											</div>
+											<span>Столы</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=2">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/df3b5431bb73a286bc6f888e2b550900.png">
+											</div>
+											<span>Стулья</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=3">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/ae9fa69946697b98eb5774356e6a36d4.png">
+											</div>
+											<span>Кровати</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=6">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/00819bd941a6616c11fc49a85ed118a6.png">
+											</div>
+											<span>Книжные шкафы</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=8">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/b5ca9cd7ea624477a97ea47cec8023b3.png">
+											</div>
+											<span>Диваны</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=9">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/666a42f81ddd258cf3af4ef8d105b70d.png">
+											</div>
+											<span>Кресла</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=10">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/fdc5487a1fa5dc4db3ee0cd7ec2a3df6.png">
+											</div>
+											<span>Тумбы</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=11">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/a0baf20b52ab0846806f2f0d3913041c.png">
+											</div>
+											<span>Шкафы</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=12">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/b92222d9de3096dc427ffdf1c9d5d6e1.png">
+											</div>
+											<span>Кухонная мебель</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=16">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/64f24b7952f2acaea3e7bf492cd7f605.png">
+											</div>
+											<span>Комоды</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=20">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/0536b099cb3a5d84319a8165502d9d88.png">
+											</div>
+											<span>Мебель для ванных</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=21">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/c8b48ed4db6894bf44cc8062313b539a.png">
+											</div>
+											<span>Гардеробы</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=22">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/c315141a467d3ebf67e069475641b081.png">
+											</div>
+											<span>Полки</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=23">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/ef023af71c7efd5d273d71690b4c4a1d.png">
+											</div>
+											<span>Сейфы/Шкатулки</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=24">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/759214876436724d46b7c37211da9c71.png">
+											</div>
+											<span>Напольные покрытия</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=25">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/9127aeb110bbbb1e668822d5635210b1.png">
+											</div>
+											<span>Свет</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=26">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/92a7ac8fe12766943def845d5f424687.png">
+											</div>
+											<span>Плитка</span>
+										</div>
+									</a>
+									<a href="/catalog/category/?piece=27">
+										<div>
+											<div class="icon__wrapper">
+												<img src="/media/tmp/03a6960ee50b8407c171444986de486b.png">
+											</div>
+											<span>Двери</span>
+										</div>
+									</a>
+
+									<a class="more" href="#"><div><span>...</span></div>
+									</a>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="catalog-navigation__category is-static">
+							<div class="catalog-navigation__wrapper">
+								<a class="catalog-navigation__title js-toggle-category"><span class="catalog-navigation__value">Бренды</span> <div class="catalog-navigation__arrow"><svg class="icon" style="width: 16px;height: 16px;"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></div></a>
+
+								<div class="catalog-navigation__items catalog-navigation__items--no-icon">
+									<a href="/catalog/category/?brand=51"><div><span>ARTE VENEZIANA</span></div></a>
+									<a href="/catalog/category/?brand=3"><div><span>ANGELO CAPPELLINI & C.</span></div></a>
+									<a href="/catalog/category/?brand=4"><div><span>ARTE BROTTO</span></div></a>
+									<a href="/catalog/category/?brand=46"><div><span>BAXTER</span></div></a>
+									<a href="/catalog/category/?brand=17"><div><span>BIZZOTTO</span></div></a>
+									<a href="/catalog/category/?brand=47"><div><span>BLUMARINE</span></div></a>
+									<a href="/catalog/category/?brand=6"><div><span>NATUZZI</span></div></a>
+									<a href="/catalog/category/?brand=18"><div><span>CHELINI</span></div></a>
+									<a href="/catalog/category/?brand=8"><div><span>SAVIO FIRMINO</span></div></a>
+									<a href="/catalog/category/?brand=7"><div><span>TOMASSI</span></div></a>
+									<a href="/catalog/category/?brand=9"><div><span>TURRI</span></div></a>
+									<a href="/catalog/category/?brand=10"><div><span>VITTORIO GRIFONI</span></div></a>
+									<a href="/catalog/category/?brand=1"><div><span>SCAVOLINI</span></div></a>
+									<a class="more" href="#"><div><span>...</span></div></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<div class="empty"></div>
+	</div>
+
+		<footer class="footer footer--inner">
+		<div class="footer__contacts">
+			<div class="row">
+				<div class="col-xs-12 col-sm-7 col-md-5 col-lg-4">
+					<div class="footer__contacts-address">
+						<div class="footer__contacts-street">Максима Горького, 168</div>
+						<div class="footer__contacts-city">Ростов-на-Дону</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-5 col-md-4 col-lg-6">
+					<ul class="footer__contacts-phones">
+						<li>+7 (863) 2 800 999</li>
+					</ul>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
+					<a class="footer__mail" href="mailto:palazzo@salonpalazzo.ru">palazzo@salonpalazzo.ru</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- Popups -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

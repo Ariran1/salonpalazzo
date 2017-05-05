@@ -1,4 +1,4 @@
-// @import "catalog.scss";
+@import "catalog.scss";
 @import "jquery.bxslider.css";
 /*
 * @author: Dergachev Mihail
@@ -6231,7 +6231,7 @@ body::before {
     opacity: 0;
   }
   .side-navigation.side-navigation--inner {
-    background: url(http://salonpalazzo.ru/static/img/side-navigation.jpg) 0 0 no-repeat;
+    background: url('http://salonpalazzo.ru/static/img/side-navigation.jpg') 0 0 no-repeat;
     background-size: cover;
   }
 }

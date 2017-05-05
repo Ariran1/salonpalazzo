@@ -2,308 +2,289 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Компания &mdash; ПАЛАЦЦО. Интерьерный салон</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="author" content="" />
-    <meta name="description" content="" />
+	<title>Компания &mdash; ПАЛАЦЦО. Интерьерный салон</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="author" content="" />
+	<meta name="description" content="" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimal-ui">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
 
-    <link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone-retina.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-ipad-retina.png" />
+	<link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone-retina.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-ipad-retina.png" />
 
-    <!-- <link rel="shortcut icon" href="favicon.png" /> -->
+	<!-- <link rel="shortcut icon" href="favicon.png" /> -->
 
-    
-    <link rel="stylesheet" href="/static/css/main.css" media="all" />
-    
+	
+	<link rel="stylesheet" href="css/main.css" media="all" />
+	
 
-    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
 <body class="js-scroll">
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="map-small" viewBox="0 0 18 25">
-            <path d="M9,7.5c0.8,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5c-0.8,0-1.5-0.7-1.5-1.5C7.5,8.2,8.2,7.5,9,7.5 M9,6C7.3,6,6,7.3,6,9c0,1.7,1.3,3,3,3c1.7,0,3-1.3,3-3C12,7.3,10.7,6,9,6L9,6z" />
-            <path d="M9,1.5c4.1,0,7.5,3.4,7.5,7.5c0,7.2-5.4,12.4-7.5,14.1c-2.1-1.7-7.5-7-7.5-14.1C1.5,4.9,4.9,1.5,9,1.5 M9,0C4,0,0,4,0,9c0,9.7,9,16,9,16c0,0,9-6.2,9-16C18,4,14,0,9,0L9,0z" />
-        </symbol>
+	<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+		<symbol id="map-small" viewBox="0 0 18 25">
+			<path d="M9,7.5c0.8,0,1.5,0.7,1.5,1.5c0,0.8-0.7,1.5-1.5,1.5c-0.8,0-1.5-0.7-1.5-1.5C7.5,8.2,8.2,7.5,9,7.5 M9,6C7.3,6,6,7.3,6,9c0,1.7,1.3,3,3,3c1.7,0,3-1.3,3-3C12,7.3,10.7,6,9,6L9,6z" />
+			<path d="M9,1.5c4.1,0,7.5,3.4,7.5,7.5c0,7.2-5.4,12.4-7.5,14.1c-2.1-1.7-7.5-7-7.5-14.1C1.5,4.9,4.9,1.5,9,1.5 M9,0C4,0,0,4,0,9c0,9.7,9,16,9,16c0,0,9-6.2,9-16C18,4,14,0,9,0L9,0z" />
+		</symbol>
 
-        <symbol id="desire" viewBox="0 0 26 14">
-            <path d="M24.1,0.3L23.8,0L16,3.3h-5.8L2.3,0L2,0.3C0.4,1.9,0,4.8,0,7s0.4,5.1,2,6.7L2.2,14l7.8-3.3h5.8l7.8,3.3l0.2-0.3c1.7-1.7,2-4.6,2-6.7C26.1,4.8,25.8,1.9,24.1,0.3z M9,10l-6.4,2.8c-1.4-1.7-1.6-4-1.6-6c0-1.9,0.4-4.1,1.5-5.7L9,3.9V10zM16,10h-6V4h6V10z M23.5,12.9L17,10.1V4l6.5-2.8c1.4,1.7,1.6,4,1.6,6C25.2,9.1,24.8,11.2,23.5,12.9z" />
-        </symbol>
-    </svg>
+		<symbol id="desire" viewBox="0 0 26 14">
+			<path d="M24.1,0.3L23.8,0L16,3.3h-5.8L2.3,0L2,0.3C0.4,1.9,0,4.8,0,7s0.4,5.1,2,6.7L2.2,14l7.8-3.3h5.8l7.8,3.3l0.2-0.3c1.7-1.7,2-4.6,2-6.7C26.1,4.8,25.8,1.9,24.1,0.3z M9,10l-6.4,2.8c-1.4-1.7-1.6-4-1.6-6c0-1.9,0.4-4.1,1.5-5.7L9,3.9V10zM16,10h-6V4h6V10z M23.5,12.9L17,10.1V4l6.5-2.8c1.4,1.7,1.6,4,1.6,6C25.2,9.1,24.8,11.2,23.5,12.9z" />
+		</symbol>
+	</svg>
 
-    <button type="button" class="float-nav js-toggle-nav">
-        <ins></ins>
-        <ins></ins>
-        <ins></ins>
-    </button>
+	<button type="button" class="float-nav js-toggle-nav">
+		<ins></ins>
+		<ins></ins>
+		<ins></ins>
+	</button>
 
-    <button type="button" class="float-desire js-toggle-desire on-dark">
-        <svg class="icon">
-            <use xlink:href="#desire" />
-        </svg>
+	<button type="button" class="float-desire js-toggle-desire on-dark">
+		<svg class="icon">
+			<use xlink:href="#desire" />
+		</svg>
 
-        <div class="close"></div>
-    </button>
+		<div class="close"></div>
+	</button>
 <!--
-    <div class="inner-bg">
-        <a href="index.html"><div class="logo"></div></a>
-    </div> -->
+	<div class="inner-bg">
+		<a href="index.html"><div class="logo"></div></a>
+	</div> -->
 
-    <aside class="side-navigation side-navigation--inner">
-        <button type="button" class="sub-close-nav">
-            <div class="close close--nav js-close-side"></div>
-        </button>
+	<aside class="side-navigation side-navigation--inner">
+		<button type="button" class="sub-close-nav">
+			<div class="close close--nav js-close-side"></div>
+		</button>
 
-        <h1 class="logo logo--light"><a href="/" title="ПАЛАЦЦО. Интерьерный салон"></a></h1>
+		<h1 class="logo logo--light"><a href="/" title="ПАЛАЦЦО. Интерьерный салон"></a></h1>
 
-                <nav class="nav">
-            <ul>
-                <li class="is-active"><a href="/company/"><span>Компания</span></a></li>
-                <li ><a href="/salons/"><span>Салоны</span></a></li>
-                <li ><a href="/design/"><span>Scavolini</span></a></li>
-                <li ><a href="/catalog/"><span>Каталог</span></a></li>
-                <li ><a href="/brands/"><span>Бренды</span></a></li>
-                <li ><a href="/calendar/"><span>Календарь и фото</span></a></li>
-                <li ><a href="/designers/"><span>Дизайнеры о...</span></a></li>
-            <li>
-                <a href="http://projects.salonpalazzo.ru/project_index.html">
-                    <span>Проекты</span>
-                </a>
-            </li>
-            </ul>
-        </nav>
+				<nav class="nav">
+			<ul>
+				<li class="is-active"><a href="/company/"><span>Компания</span></a></li>
+				<li ><a href="/salons/"><span>Салоны</span></a></li>
+				<li ><a href="/design/"><span>Scavolini</span></a></li>
+				<li ><a href="/catalog/"><span>Каталог</span></a></li>
+				<li ><a href="/brands/"><span>Бренды</span></a></li>
+				<li ><a href="/calendar/"><span>Календарь и фото</span></a></li>
+				<li ><a href="/designers/"><span>Дизайнеры о...</span></a></li>
+			<li>
+				<a href="http://projects.salonpalazzo.ru/project_index.html">
+					<span>Проекты</span>
+				</a>
+			</li>
+			</ul>
+		</nav>
 
 
-    </aside>
+	</aside>
 
-    <aside class="side-feedback"> <!-- is-visible - class for visible state -->
-        <button type="button" class="sub-close-nav">
-            <div class="close close--nav js-close-side"></div>
-        </button>
+	<aside class="side-feedback"> <!-- is-visible - class for visible state -->
+		<button type="button" class="sub-close-nav">
+			<div class="close close--nav js-close-side"></div>
+		</button>
 
-        <ul>
-            <!-- <li> -->
-                <!-- <a href="/salons/"><span>Посетить салон</span></a> -->
-            <!-- </li> -->
-            <li>
-                <a href="#" class="js-side-call"><span>позвонить</span></a>
+		<ul>
+			<!-- <li> -->
+				<!-- <a href="/salons/"><span>Посетить салон</span></a> -->
+			<!-- </li> -->
+			<li>
+				<a href="#" class="js-side-call"><span>позвонить</span></a>
 
-                <div class="side-feedback__inner">
-                    <div class="side-feedback__number">+7 (863) 292 34 07</div>
+				<div class="side-feedback__inner">
+					<div class="side-feedback__number">+7 (863) 292 34 07</div>
 
-                    <div class="side-feedback__call">
-                        <form action="/">
-                            <div class="side-feedback__call-inputs">
-                                <label for="call">позвонить вам</label>
-                                <input type="text" name="call" id="call" value="+7">
-                            </div>
+					<div class="side-feedback__call">
+						<form action="/">
+							<div class="side-feedback__call-inputs">
+								<label for="call">позвонить вам</label>
+								<input type="text" name="call" id="call" value="+7">
+							</div>
 
-                            <div class="side-feedback__call-controls">
-                                в удобное время <a href="#">указать</a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </li>
+							<div class="side-feedback__call-controls">
+								в удобное время <a href="#">указать</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</li>
 <!--             <li>
-                <a href="#"><span>Заказать мебель</span></a>
-            </li> -->
-            <li>
-                <a href="#"><span>я — дизайнер</span></a>
-            </li>
-        </ul>
-    </aside>
+				<a href="#"><span>Заказать мебель</span></a>
+			</li> -->
+			<li>
+				<a href="#"><span>я — дизайнер</span></a>
+			</li>
+		</ul>
+	</aside>
 
-    
-    <div class="main-wrapper">
-        <div class="main main--inner ">
-            <div class="breadcrumbs">
-                <a href="/">Главная</a> <ins>&rarr;</ins> <span>Компания</span>
-            </div>
+	
+	<div class="main-wrapper">
+		<div class="main main--inner ">
+			<div class="breadcrumbs">
+				<a href="/">Главная</a> <ins>&rarr;</ins> <span>Компания</span>
+			</div>
 
-            <section class="page salon">
-                <h2>Компания</h2>
+			<section class="page salon">
+				<h2>Компания</h2>
 
-                
+				
 
-                <div class="sub-nav">
-                    <ul>
-                        <!-- <li class="is-active"><a href="#">История</a></li> -->
-                        <li><a href="#anchor-hist">История</a></li>
-                        <li><a href="#anchor-team">Команда</a></li>
-                        <li><a href="#anchor-pub">Публикации</a></li>
-                        <li><a href="#anchor-cont">Контакты</a></li>
-                    </ul>
-                </div>
+				<div class="sub-nav">
+					<ul>
+						<!-- <li class="is-active"><a href="#">История</a></li> -->
+						<li><a href="#anchor-hist">История</a></li>
+						<li><a href="#anchor-team">Команда</a></li>
+						<li><a href="#anchor-pub">Публикации</a></li>
+						<li><a href="#anchor-cont">Контакты</a></li>
+					</ul>
+				</div>
 
-                <div class="row" id="anchor-hist">
-                    <div class="col-xs-12 col-sm-8">
-                        <div class="company__description"><p>Двадцать лет привозим в&nbsp;Ростов мебель из&nbsp;Италии собственным транспортом.</p>
+				<div class="row" id="anchor-hist">
+					<div class="col-xs-12 col-sm-8">
+						<div class="company__description"><p>Двадцать лет привозим в&nbsp;Ростов мебель из&nbsp;Италии собственным транспортом.</p>
 <p>Предлагаем мебель, свет, аксессуары и&nbsp;предметы декора от&nbsp;трехсот фабрик, которым доверяем. Консультируем и&nbsp;помогаем создать интерьерные решения жилых помещений. Оснащаем дома, офисы, гостиницы и&nbsp;коммерческие помещения в&nbsp;России и&nbsp;за&nbsp;рубежом.</p>
 
 
 </div>
-                    </div>
-                </div>
+					</div>
+				</div>
 
-                <section class="company__history">
-                    <ul>
-                        <li>
-                            <time class="company__history-year">1993</time>
+				<section class="company__history">
+					<ul>
+						<li>
+							<time class="company__history-year">1993</time>
 
-                            <a href="#" class="company__history-title js-company-history">Основание салона</a>
+							<a href="#" class="company__history-title js-company-history">Основание салона</a>
 
-                            <div class="company__history-description"><p>Ростовские дизайнеры и&nbsp;архитекторы собрались в&nbsp;команду для проектирования и&nbsp;разработки дизайна домов, квартир, загородных резиденций и&nbsp;коммерческих помещений. Организовали собственную систему доставки мебели из&nbsp;Италии в&nbsp;Ростов. Так появился салон &laquo;Палаццо&raquo;.</p>
+							<div class="company__history-description"><p>Ростовские дизайнеры и&nbsp;архитекторы собрались в&nbsp;команду для проектирования и&nbsp;разработки дизайна домов, квартир, загородных резиденций и&nbsp;коммерческих помещений. Организовали собственную систему доставки мебели из&nbsp;Италии в&nbsp;Ростов. Так появился салон &laquo;Палаццо&raquo;.</p>
 </div>
 
-                            <div class="company__history-photo" style="background-image: url(/media/img/timeline/6288e8e1-eff2-4fca-a7bb-2ea33181c7aa.jpg);"></div>
-                        </li>
-                        <li>
-                            <time class="company__history-year">1999</time>
+							<div class="company__history-photo" style="background-image: url(http://salonpalazzo.ru/media/img/timeline/6288e8e1-eff2-4fca-a7bb-2ea33181c7aa.jpg);"></div>
+						</li>
+						<li>
+							<time class="company__history-year">1999</time>
 
-                            <a href="#" class="company__history-title js-company-history">Открытие салона в сентябре 1999 года</a>
+							<a href="#" class="company__history-title js-company-history">Открытие салона в сентябре 1999 года</a>
 
-                            <div class="company__history-description"><p>25 сентября 1999 года&nbsp;&mdash; открылся салон &laquo;Палаццо&raquo;. Совершив переворот в&nbsp;сознании наших клиентов, мы&nbsp;позволили им&nbsp;<nobr>по-новому</nobr> взглянуть на&nbsp;роскошную мебель. Вместо привычной дорогой классики был представлен абсолютный новый стиль contemporary. Простые, четкие линии, спокойные цвета, минимум украшений и&nbsp;невероятный комфорт. Спустя несколько лет этот тренд стал фаворитом.</p>
+							<div class="company__history-description"><p>25 сентября 1999 года&nbsp;&mdash; открылся салон &laquo;Палаццо&raquo;. Совершив переворот в&nbsp;сознании наших клиентов, мы&nbsp;позволили им&nbsp;<nobr>по-новому</nobr> взглянуть на&nbsp;роскошную мебель. Вместо привычной дорогой классики был представлен абсолютный новый стиль contemporary. Простые, четкие линии, спокойные цвета, минимум украшений и&nbsp;невероятный комфорт. Спустя несколько лет этот тренд стал фаворитом.</p>
 </div>
 
-                            <div class="company__history-photo" style="background-image: url(/media/img/timeline/521a8dda-e620-4cb5-b33a-d1a642294719.jpg);"></div>
-                        </li>
-                        <li>
-                            <time class="company__history-year">2006</time>
+							<div class="company__history-photo" style="background-image: url(http://salonpalazzo.ru/media/img/timeline/521a8dda-e620-4cb5-b33a-d1a642294719.jpg);"></div>
+						</li>
+						<li>
+							<time class="company__history-year">2006</time>
 
-                            <a href="#" class="company__history-title js-company-history">Смена имиджа салона в апреле 2006 года</a>
+							<a href="#" class="company__history-title js-company-history">Смена имиджа салона в апреле 2006 года</a>
 
-                            <div class="company__history-description"><p>Новый фирменный стиль, интерьер и&nbsp;слоган. Теперь Палаццо представляет преимущественно роскошную классику под девизом &laquo;Роскошь&nbsp;&mdash; твой образ жизни&raquo;. Салон поделен на&nbsp;две зоны: ночную и&nbsp;дневную.</p>
+							<div class="company__history-description"><p>Новый фирменный стиль, интерьер и&nbsp;слоган. Теперь Палаццо представляет преимущественно роскошную классику под девизом &laquo;Роскошь&nbsp;&mdash; твой образ жизни&raquo;. Салон поделен на&nbsp;две зоны: ночную и&nbsp;дневную.</p>
 </div>
 
-                            <div class="company__history-photo" style="background-image: url(/media/img/timeline/e3eab53a-3a7c-4a5a-9c32-b7514aee8b01.jpg);"></div>
-                        </li>
-                        <li>
-                            <time class="company__history-year">2014</time>
+							<div class="company__history-photo" style="background-image: url(http://salonpalazzo.ru/media/img/timeline/e3eab53a-3a7c-4a5a-9c32-b7514aee8b01.jpg);"></div>
+						</li>
+						<li>
+							<time class="company__history-year">2014</time>
 
-                            <a href="#" class="company__history-title js-company-history">Открытие нового салона в сентябре 2014 года</a>
+							<a href="#" class="company__history-title js-company-history">Открытие нового салона в сентябре 2014 года</a>
 
-                            <div class="company__history-description"><p>Салон переехал с&nbsp;Пушкинской на&nbsp;Кировский. Подъезжать к&nbsp;салону удобнее, а&nbsp;парковка втрое больше.</p>
+							<div class="company__history-description"><p>Салон переехал с&nbsp;Пушкинской на&nbsp;Кировский. Подъезжать к&nbsp;салону удобнее, а&nbsp;парковка втрое больше.</p>
 <p>Большую часть экспозиции занимают кухни и&nbsp;ванные Скаволини. Коллекция из&nbsp;двух тысяч каталогов мебели и&nbsp;предметов интерьера, разместилась в&nbsp;новой переговорной для удобной работы клиентов с&nbsp;дизайнерами.</p>
 <p>Диваны и&nbsp;экспозиция мебели для дома Натуцци переехали в&nbsp;Миллениум на&nbsp;Текучева.</p>
 </div>
 
-                            <div class="company__history-photo" style="background-image: url(/media/img/timeline/416b0319-2aa8-4f05-bc6c-85c064632a50.jpg);"></div>
-                        </li>
-                    </ul>
-                </section>
+							<div class="company__history-photo" style="background-image: url(http://salonpalazzo.ru/media/img/timeline/416b0319-2aa8-4f05-bc6c-85c064632a50.jpg);"></div>
+						</li>
+					</ul>
+				</section>
 
-                
+				
 
-                <section class="company__articles" id="anchor-pub">
-                    <h3>Публикации</h3>
+				<section class="company__articles" id="anchor-pub">
+					<h3>Публикации</h3>
 
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-lg-4">
-                            <article class="company__articles-item">
-                                <a href="http://salonpalazzo.stage.plan-b.ru/media/upload/db584a96-9c4d-4c84-ad01-579aec087066.pdf" class="company__articles-link">АвтоАрена, декабрь 2011-январь 2012</a>
-                                <h4 class="company__articles-title">В ручном режиме</h4>
-                                <div class="company__articles-content"><p>АвтоАрена о&nbsp;презентации гаражных ворот итальянской фабрики Silvelox, которые изготавливаются вручную и&nbsp;заслужили высший рейтинг безопасности немецкой полиции. Интервью журналу дал <nobr>экспорт-менеджер</nobr> компании Даниэль Чайа.</p>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<article class="company__articles-item">
+								<a href="http://salonpalazzo.stage.plan-b.ru/media/upload/db584a96-9c4d-4c84-ad01-579aec087066.pdf" class="company__articles-link">АвтоАрена, декабрь 2011-январь 2012</a>
+								<h4 class="company__articles-title">В ручном режиме</h4>
+								<div class="company__articles-content"><p>АвтоАрена о&nbsp;презентации гаражных ворот итальянской фабрики Silvelox, которые изготавливаются вручную и&nbsp;заслужили высший рейтинг безопасности немецкой полиции. Интервью журналу дал <nobr>экспорт-менеджер</nobr> компании Даниэль Чайа.</p>
 </div>
-                                <time class="company__articles-date">30 / 12 / 2012</time>
-                            </article>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-lg-4">
-                            <article class="company__articles-item">
-                                <a href="http://salonpalazzo.stage.plan-b.ru/media/upload/be0942c6-4fb6-45cb-a6b5-7904ee432524.pdf" class="company__articles-link">4ROOMS</a>
-                                <h4 class="company__articles-title">4ROOMS</h4>
-                                <div class="company__articles-content"><p>Иллюстрированный гид интерьерного салона Палаццо о&nbsp;крупнейшей выставке мебели, производстве мебели. Интервью для журнала дали архитекторы, дизайнеры и&nbsp;владельцы известных мебельных фабрик Италии: Скаволини, Снайдеро, Коломбо, Турри и&nbsp;Кавалли.</p>
+								<time class="company__articles-date">30 / 12 / 2012</time>
+							</article>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<article class="company__articles-item">
+								<a href="http://salonpalazzo.stage.plan-b.ru/media/upload/be0942c6-4fb6-45cb-a6b5-7904ee432524.pdf" class="company__articles-link">4ROOMS</a>
+								<h4 class="company__articles-title">4ROOMS</h4>
+								<div class="company__articles-content"><p>Иллюстрированный гид интерьерного салона Палаццо о&nbsp;крупнейшей выставке мебели, производстве мебели. Интервью для журнала дали архитекторы, дизайнеры и&nbsp;владельцы известных мебельных фабрик Италии: Скаволини, Снайдеро, Коломбо, Турри и&nbsp;Кавалли.</p>
 </div>
-                                <time class="company__articles-date">23 / 03 / 2012</time>
-                            </article>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-lg-4">
-                            <article class="company__articles-item">
-                                <a href="http://salonpalazzo.stage.plan-b.ru/media/upload/7f9c78b1-b6c3-42f2-9059-a4e570b4b7d9.pdf" class="company__articles-link">HiHome, октябрь, 2012</a>
-                                <h4 class="company__articles-title">Объективный успех</h4>
-                                <div class="company__articles-content"><p>Владелец фабрики Тончелли, синьор Лоренцо Тончелли в&nbsp;интервью журналу рассказывает о&nbsp;полувековой истории фабрики и&nbsp;экспериментах с&nbsp;материалами для производства уникальных кухонь и&nbsp;винных шкафов.</p>
+								<time class="company__articles-date">23 / 03 / 2012</time>
+							</article>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<article class="company__articles-item">
+								<a href="http://salonpalazzo.stage.plan-b.ru/media/upload/7f9c78b1-b6c3-42f2-9059-a4e570b4b7d9.pdf" class="company__articles-link">HiHome, октябрь, 2012</a>
+								<h4 class="company__articles-title">Объективный успех</h4>
+								<div class="company__articles-content"><p>Владелец фабрики Тончелли, синьор Лоренцо Тончелли в&nbsp;интервью журналу рассказывает о&nbsp;полувековой истории фабрики и&nbsp;экспериментах с&nbsp;материалами для производства уникальных кухонь и&nbsp;винных шкафов.</p>
 </div>
-                                <time class="company__articles-date">29 / 10 / 2011</time>
-                            </article>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-lg-4">
-                            <article class="company__articles-item">
-                                <a href="http://salonpalazzo.stage.plan-b.ru/media/upload/240b6d8e-648d-4520-bfe3-60dd00463020.pdf" class="company__articles-link">HiHome, сентябрь, 2011</a>
-                                <h4 class="company__articles-title">Верх долговечности</h4>
-                                <div class="company__articles-content"><p>Журнал <nobr>Хай-хоум</nobr> об&nbsp;американском композитном декинге Трекс Транссенд, который не&nbsp;расслаивается и&nbsp;не&nbsp;выгорает под воздействием влаги и&nbsp;температуры, передает текстуру и&nbsp;запах дерева.</p>
+								<time class="company__articles-date">29 / 10 / 2011</time>
+							</article>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-lg-4">
+							<article class="company__articles-item">
+								<a href="http://salonpalazzo.stage.plan-b.ru/media/upload/240b6d8e-648d-4520-bfe3-60dd00463020.pdf" class="company__articles-link">HiHome, сентябрь, 2011</a>
+								<h4 class="company__articles-title">Верх долговечности</h4>
+								<div class="company__articles-content"><p>Журнал <nobr>Хай-хоум</nobr> об&nbsp;американском композитном декинге Трекс Транссенд, который не&nbsp;расслаивается и&nbsp;не&nbsp;выгорает под воздействием влаги и&nbsp;температуры, передает текстуру и&nbsp;запах дерева.</p>
 </div>
-                                <time class="company__articles-date">18 / 09 / 2011</time>
-                            </article>
-                        </div>
+								<time class="company__articles-date">18 / 09 / 2011</time>
+							</article>
+						</div>
 
-                    </div>
-                </section>
+					</div>
+				</section>
 
-                
-
-
-            </section>
-        </div>
-        <div class="empty"></div>
-    </div>
-
-        <footer class="footer footer--inner">
-        <div class="footer__contacts">
-            <div class="row">
-                <div class="col-xs-12 col-sm-7 col-md-5 col-lg-4">
-                    <div class="footer__contacts-address">
-                        <div class="footer__contacts-street">Максима Горького, 168</div>
-                        <div class="footer__contacts-city">Ростов-на-Дону</div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-5 col-md-4 col-lg-6">
-                    <ul class="footer__contacts-phones">
-                        <li>+7 (863) 2 800 999</li>
-                    </ul>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
-                    <a class="footer__mail" href="mailto:palazzo@salonpalazzo.ru">palazzo@salonpalazzo.ru</a>
-                </div>
-            </div>
-        </div>
-    </footer>
+				
 
 
+			</section>
+		</div>
+		<div class="empty"></div>
+	</div>
 
-    <!-- Popups -->
-    <script src="/static/js/jquery-2.1.3.min.js"></script>
-    <script src="/static/js/bootstrap.min.js"></script>
-    <script src="/static/js/jquery.bxslider.min.js"></script>
-    <script src="/static/js/main.js"></script>
+		<footer class="footer footer--inner">
+		<div class="footer__contacts">
+			<div class="row">
+				<div class="col-xs-12 col-sm-7 col-md-5 col-lg-4">
+					<div class="footer__contacts-address">
+						<div class="footer__contacts-street">Максима Горького, 168</div>
+						<div class="footer__contacts-city">Ростов-на-Дону</div>
+					</div>
+				</div>
 
-    <script type="text/javascript">
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				<div class="col-xs-12 col-sm-5 col-md-4 col-lg-6">
+					<ul class="footer__contacts-phones">
+						<li>+7 (863) 2 800 999</li>
+					</ul>
+				</div>
 
-      ga('create', 'UA-4996847-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
+					<a class="footer__mail" href="mailto:palazzo@salonpalazzo.ru">palazzo@salonpalazzo.ru</a>
+				</div>
+			</div>
+		</div>
+	</footer>
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter34542255 = new Ya.Metrika({ id:34542255, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/34542255" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
 
+
+	<!-- Popups -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>

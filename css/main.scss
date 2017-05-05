@@ -1,4 +1,4 @@
-@import "catalog.scss";
+// @import "catalog.scss";
 @import "jquery.bxslider.css";
 /*
 * @author: Dergachev Mihail
@@ -5468,7 +5468,7 @@ body::before {
   height: 100%;
 }
 .main-contacts__content {
-  padding-top: 40px;
+//  padding-top: 45px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -6231,7 +6231,7 @@ body::before {
     opacity: 0;
   }
   .side-navigation.side-navigation--inner {
-    background: url(http://salonpalazzo.ru/img/side-navigation.jpg) 0 0 no-repeat;
+    background: url(http://salonpalazzo.ru/static/img/side-navigation.jpg) 0 0 no-repeat;
     background-size: cover;
   }
 }
@@ -6583,4 +6583,14 @@ body::before {
 .bx-wrapper .bx-prev {
   left: 30px;
   text-align: left
+}
+
+.company__articles-item {
+    vertical-align: top;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 35px 15px 30px;
+    background-color: #f2f2f2;
+    min-height: 340px;
 }

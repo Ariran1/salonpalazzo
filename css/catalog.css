@@ -5770,6 +5770,7 @@ body::before {
   margin-bottom: 30px;
   padding: 35px 15px 30px;
   background-color: #f2f2f2;
+  min-height: 340px;
 }
 .company__articles-item::before {
   position: absolute;

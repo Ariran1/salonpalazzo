@@ -4931,7 +4931,7 @@ body::before { position: fixed; top: -60px; left: 0; z-index: 9; width: 100%; he
 
 .main-promo .subtitle { display: inline-block; line-height: 30px; padding-left: 10px; padding-right: 10px; color: #fff; background-color: #2d2c2c; }
 
-.main-about { height: 500px; background: url(http://salonpalazzo.ru/img/side-about.jpg) 0 0 no-repeat; }
+.main-about { height: 500px; background: url("http://salonpalazzo.ru/static/img/side-about.jpg") 0 0 no-repeat; }
 
 .main-contacts { position: relative; height: 800px; }
 

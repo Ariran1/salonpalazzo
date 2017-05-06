@@ -2080,7 +2080,7 @@ button:focus { outline: none; }
 
 .designer__plate { position: absolute; top: 50%; left: 50%; z-index: 3; margin-top: -90px; margin-left: -90px; padding-left: 20px; padding-right: 20px; -webkit-transition: -webkit-transform .3s ease; transition: -webkit-transform .3s ease; transition: transform .3s ease; transition: transform .3s ease, -webkit-transform .3s ease; }
 
-.designer__photo { float: left; width: 100px; height: 100px; margin: 30px auto 30px; border-radius: 50%; background-repeat: no-repeat; -webkit-transition: opacity .3s ease; transition: opacity .3s ease; }
+.designer__photo { float: left; width: 100px; height: 100px; margin: 30px auto 30px; border-radius: 50%; background-repeat: no-repeat; -webkit-transition: opacity .3s ease; transition: opacity .3s ease; background-size: 70px; }
 
 .designer__h2 { float: left; width: 380px; }
 
@@ -2522,5 +2522,22 @@ body::before { position: fixed; top: -60px; left: 0; z-index: 9; width: 100%; he
 .bx-wrapper .bx-prev { left: 30px; text-align: left; }
 
 .redline { position: absolute; right: 0; top: 0; z-index: 2; pointer-events: none; -webkit-transform: translateZ(0); transform: translateZ(0); }
+
+.calendar-photo__event { width: 49% !important; }
+
+.calendar-photo__event-a { width: 100% !important; margin-bottom: 0; }
+
+.calendar-photo__event-preview { height: 286px !important; }
+
+.designer__photo_name { float: left; margin: 20px 30px; }
+
+.calendar-photo__event-title-new { font-size: 30px; text-transform: none; margin-top: 20px; }
+
+.i_new { text-transform: none; font-size: 12px; }
+
+.designer__photo { width: 70px; height: 70px; margin: 10px auto 30px; }
+
+@media (max-width: 992px) { .calendar-photo__event { width: 100% !important; padding: 0; }
+  .calendar-photo__event-preview { width: 100% !important; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -5182,6 +5182,7 @@ button:focus {
   background-repeat: no-repeat;
   -webkit-transition: opacity .3s ease;
           transition: opacity .3s ease;
+  background-size: 70px;
 }
 .designer__h2 {
   float:left;
@@ -6596,4 +6597,46 @@ body::before {
     z-index: 2;
     pointer-events: none;
     transform: translateZ(0);
+}
+//из стр проекты инлайновые стили 
+.calendar-photo__event {
+  width: 49% !important;
+  }
+  .calendar-photo__event-a {
+    width: 100% !important;
+    margin-bottom: 0;
+  }
+  .calendar-photo__event-preview {
+    height: 286px !important;
+  }
+  .designer__photo_name {
+    float: left;
+    margin: 20px 30px;
+  }
+  .calendar-photo__event-title-new {
+    font-size: 30px;
+    text-transform: none;
+    margin-top: 20px;
+  }
+  .i_new {
+    text-transform: none;
+    font-size: 12px;
+  }
+  .designer__photo {
+    width: 70px;
+    height: 70px;
+    margin: 10px auto 30px;
+  }
+
+ @media (max-width: 992px) {
+   .calendar-photo__event {
+    width: 100% !important;
+    padding: 0;
+  }
+  .calendar-photo__event-preview {
+    width: 100% !important;
+  }
+  // .designer__photo_name {
+  //   margin: 0;
+  // }
 }

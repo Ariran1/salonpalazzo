@@ -1,4 +1,3 @@
-@import "catalog.scss";
 @import "jquery.bxslider.css";
 /*
 * @author: Dergachev Mihail
@@ -259,8 +258,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('http://salonpalazzo.ru/fnt/glyphicons-halflings-regular.eot');
-  src: url('http://salonpalazzo.ru/fnt/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('http://salonpalazzo.ru/fnt/glyphicons-halflings-regular.woff2') format('woff2'), url('http://salonpalazzo.ru/fnt/glyphicons-halflings-regular.woff') format('woff'), url('http://salonpalazzo.ru/fnt/glyphicons-halflings-regular.ttf') format('truetype'), url('http://salonpalazzo.ru/fnt/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fnt/glyphicons-halflings-regular.eot');
+  src: url('../fnt/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fnt/glyphicons-halflings-regular.woff2') format('woff2'), url('../fnt/glyphicons-halflings-regular.woff') format('woff'), url('../fnt/glyphicons-halflings-regular.ttf') format('truetype'), url('../fnt/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -4503,29 +4502,29 @@ p {
 }
 @font-face {
   font-family: 'Geometria Light';
-  src: url('http://salonpalazzo.ru/fnt/GeometriaLight.eot');
-  src: url('http://salonpalazzo.ru/fnt/GeometriaLight.eot') format('embedded-opentype'), url('http://salonpalazzo.ru/fnt/GeometriaLight.woff2') format('woff2'), url('http://salonpalazzo.ru/fnt/GeometriaLight.woff') format('woff'), url('http://salonpalazzo.ru/fnt/GeometriaLight.ttf') format('truetype'), url('http://salonpalazzo.ru/fnt/GeometriaLight.svg#GeometriaLight') format('svg');
+  src: url('../fnt/GeometriaLight.eot');
+  src: url('../fnt/GeometriaLight.eot') format('embedded-opentype'), url('../fnt/GeometriaLight.woff2') format('woff2'), url('../fnt/GeometriaLight.woff') format('woff'), url('../fnt/GeometriaLight.ttf') format('truetype'), url('../fnt/GeometriaLight.svg#GeometriaLight') format('svg');
 }
 @font-face {
   font-family: 'Geometria';
-  src: url('http://salonpalazzo.ru/fnt/BrownfoxGeometria.eot');
-  src: url('http://salonpalazzo.ru/fnt/BrownfoxGeometria.eot') format('embedded-opentype'), url('http://salonpalazzo.ru/fnt/BrownfoxGeometria.woff2') format('woff2'), url('http://salonpalazzo.ru/fnt/BrownfoxGeometria.woff') format('woff'), url('http://salonpalazzo.ru/fnt/BrownfoxGeometria.ttf') format('truetype'), url('http://salonpalazzo.ru/fnt/BrownfoxGeometria.svg#BrownfoxGeometria') format('svg');
+  src: url('../fnt/BrownfoxGeometria.eot');
+  src: url('../fnt/BrownfoxGeometria.eot') format('embedded-opentype'), url('../fnt/BrownfoxGeometria.woff2') format('woff2'), url('../fnt/BrownfoxGeometria.woff') format('woff'), url('../fnt/BrownfoxGeometria.ttf') format('truetype'), url('../fnt/BrownfoxGeometria.svg#BrownfoxGeometria') format('svg');
 }
 @font-face {
   font-family: 'Geometria Medium';
-  src: url('http://salonpalazzo.ru/fnt/BrownfoxGeometriaMedium.eot');
-  src: url('http://salonpalazzo.ru/fnt/BrownfoxGeometriaMedium.eot') format('embedded-opentype'), url('http://salonpalazzo.ru/fnt/BrownfoxGeometriaMedium.woff2') format('woff2'), url('http://salonpalazzo.ru/fnt/BrownfoxGeometriaMedium.woff') format('woff'), url('http://salonpalazzo.ru/fnt/BrownfoxGeometriaMedium.ttf') format('truetype'), url('http://salonpalazzo.ru/fnt/BrownfoxGeometriaMedium.svg#BrownfoxGeometriaMedium') format('svg');
+  src: url('../fnt/BrownfoxGeometriaMedium.eot');
+  src: url('../fnt/BrownfoxGeometriaMedium.eot') format('embedded-opentype'), url('../fnt/BrownfoxGeometriaMedium.woff2') format('woff2'), url('../fnt/BrownfoxGeometriaMedium.woff') format('woff'), url('../fnt/BrownfoxGeometriaMedium.ttf') format('truetype'), url('../fnt/BrownfoxGeometriaMedium.svg#BrownfoxGeometriaMedium') format('svg');
 }
 @font-face {
   font-family: 'PT Serif';
   font-style: italic;
-  src: url('http://salonpalazzo.ru/fnt/ptf56f_w.eot');
-  src: local('PT Serif Italic'), url('http://salonpalazzo.ru/fnt/ptf56f_w.woff') format('woff'), url('http://salonpalazzo.ru/fnt/ptf56f_w.ttf') format('truetype'), url('http://salonpalazzo.ru/fnt/ptf56f_w.svg#PTSerif-Italic') format('svg');
+  src: url('../fnt/ptf56f_w.eot');
+  src: local('PT Serif Italic'), url('../fnt/ptf56f_w.woff') format('woff'), url('../fnt/ptf56f_w.ttf') format('truetype'), url('../fnt/ptf56f_w.svg#PTSerif-Italic') format('svg');
 }
 @font-face {
   font-family: 'PT Sans';
-  src: url('http://salonpalazzo.ru/fnt/pts55f_w.eot');
-  src: local('PT Sans'), url('http://salonpalazzo.ru/fnt/PTS55F_W.woff') format('woff'), url('http://salonpalazzo.ru/fnt/PTS55F_W.ttf') format('truetype'), url('http://salonpalazzo.ru/fnt/PTS55F_W.svg#PTSans-Regular') format('svg');
+  src: url('../fnt/pts55f_w.eot');
+  src: local('PT Sans'), url('../fnt/PTS55F_W.woff') format('woff'), url('../fnt/PTS55F_W.ttf') format('truetype'), url('../fnt/PTS55F_W.svg#PTSans-Regular') format('svg');
 }
 button {
   margin: 0;
@@ -4833,7 +4832,7 @@ button:focus {
   width: 250px;
   height: 75px;
   margin: 0 0 150px 30px;
-  background: url('http://salonpalazzo.ru/static/img/logo.png') 0 0 no-repeat;
+  background: url("http://salonpalazzo.ru/static/img/logo.png") 0 0 no-repeat;
   font-size: 0;
 }
 .logo a {
@@ -5175,14 +5174,18 @@ button:focus {
           transition: transform .3s ease;
 }
 .designer__photo {
+  float:left;
   width: 100px;
   height: 100px;
-  margin: 0 auto 30px;
+  margin: 30px auto 30px;
   border-radius: 50%;
-  background-size: 70px !important;
   background-repeat: no-repeat;
   -webkit-transition: opacity .3s ease;
           transition: opacity .3s ease;
+}
+.designer__h2 {
+  float:left;
+  width: 380px;
 }
 .designer__name {
   margin-bottom: 5px;
@@ -5207,11 +5210,6 @@ button:focus {
   padding: 0 20px 20px;
   -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.23, 0.85, 0.7, 1.01);
           transition: transform 0.3s cubic-bezier(0.23, 0.85, 0.7, 1.01);
-}
-@media (max-width: 768px) {
-.designer__info {
-    margin-top: 20px;
-  } 
 }
 .designer__info .designer__status {
   margin-bottom: 20px;
@@ -5474,7 +5472,6 @@ body::before {
   height: 100%;
 }
 .main-contacts__content {
-//  padding-top: 45px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -6237,7 +6234,7 @@ body::before {
     opacity: 0;
   }
   .side-navigation.side-navigation--inner {
-    background: url("http://salonpalazzo.ru/static/img/side-navigation.jpg") 0 0 no-repeat;
+    background: url("http://projects.salonpalazzo.ru/static/img/side-navigation.jpg") 0 0 no-repeat;
     background-size: cover;
   }
 }
@@ -6318,9 +6315,9 @@ body::before {
   .calendar-photo__event {
     width: 100%;
   }
-  // .calendar-photo__event-preview {
-  //   width: 279px;
-  // }
+  .calendar-photo__event-preview {
+    width: 279px;
+  }
   h2 {
     font-size: 46px;
   }
@@ -6591,84 +6588,12 @@ body::before {
   text-align: left
 }
 
-.company__articles-item {
-    vertical-align: top;
-    overflow: hidden;
-    position: relative;
-    margin-bottom: 30px;
-    padding: 35px 15px 30px;
-    background-color: #f2f2f2;
-    min-height: 340px;
-}
-
+//==========================*/
 .redline {
-   position: absolute;
-   right: 0;
-   top: 0;
-   z-index: 2;
-   pointer-events: none;
-   transform: translateZ(0);
-}
-/*--<h3>Проекты</h3>8*/
-.calendar-photo__event {
-  width: 49% !important;
-}
-.calendar-photo__event-a {
-  width: 100% !important;
-  margin-bottom: 0;
-}
-.calendar-photo__event-preview {
-  height: 286px !important;
-}
-.designer__photo_name {
-  float: left;
-  margin: 20px 30px;
-}
-.calendar-photo__event-title-new {
-  font-size: 30px;
-  text-transform: none;
-  margin-top: 20px;
-}
-.i_new {
-  text-transform: none;
-  font-size: 12px;
-}
-.designer__photo {
-  width: 70px;
-  height: 70px;
-  margin: 10px auto 30px;
-}
- .calendar-photo__description {
-  margin-bottom:30px;
-  width: 600px;
- }
-.designer__photo {
-    width: 70px;
-    height: 70px;
-    margin: 10px auto 30px;
-    float: left;
-}
-
-@media (max-width: 992px) {
-  .calendar-photo__event {
-    width: 100% !important;
-    padding: 0;
-  }
-  .calendar-photo__event-a {
-    width: 100%;
-    margin-bottom: 0;
-    display: inline-block;
-    text-align: center;
-  }
-  .designer__photo_name {
-   float: none; 
-  }
-
-  .calendar-photo__event-preview {
-    height: 286px !important;
-    width: 100% !important;    
-  }
-  .calendar-photo__description {
-    width: auto !important;
-  }
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    pointer-events: none;
+    transform: translateZ(0);
 }

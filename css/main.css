@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(jquery.bxslider.css);
 /*
 * @author: Dergachev Mihail
@@ -4856,7 +4857,7 @@ button:focus { outline: none; }
 
 .designer__plate { position: absolute; top: 50%; left: 50%; z-index: 3; margin-top: -90px; margin-left: -90px; padding-left: 20px; padding-right: 20px; -webkit-transition: -webkit-transform .3s ease; transition: -webkit-transform .3s ease; transition: transform .3s ease; transition: transform .3s ease, -webkit-transform .3s ease; }
 
-.designer__photo { width: 100px; height: 100px; margin: 0 auto 30px; border-radius: 50%; background-repeat: no-repeat; -webkit-transition: opacity .3s ease; transition: opacity .3s ease; }
+.designer__photo { width: 100px; height: 100px; margin: 0 auto 30px; border-radius: 50%; background-size: 70px !important; background-repeat: no-repeat; -webkit-transition: opacity .3s ease; transition: opacity .3s ease; }
 
 .designer__name { margin-bottom: 5px; font-size: 17px; font-family: 'Geometria Medium', Arial, Helvetica, sans-serif; text-transform: uppercase; }
 
@@ -5212,7 +5213,6 @@ body::before { position: fixed; top: -60px; left: 0; z-index: 9; width: 100%; he
   .inner-bg { display: block; }
   .main-about, .main-order, .main-special, .main-catalog { height: auto !important; background-image: none; }
   .calendar-photo__event { width: 100%; }
-  .calendar-photo__event-preview { width: 279px; }
   h2 { font-size: 46px; }
   .main--inner { margin-left: 0; }
   .main-promo li:not(:first-of-type), .main-promo .bx-controls, .main-promo .content-box { display: none !important; }
@@ -5298,5 +5298,32 @@ body::before { position: fixed; top: -60px; left: 0; z-index: 9; width: 100%; he
 .bx-wrapper .bx-prev { left: 30px; text-align: left; }
 
 .company__articles-item { vertical-align: top; overflow: hidden; position: relative; margin-bottom: 30px; padding: 35px 15px 30px; background-color: #f2f2f2; min-height: 340px; }
+
+.redline { position: absolute; right: 0; top: 0; z-index: 2; pointer-events: none; -webkit-transform: translateZ(0); transform: translateZ(0); }
+
+/*--<h3>Проекты</h3>8*/
+.calendar-photo__event { width: 49% !important; }
+
+.calendar-photo__event-a { width: 100% !important; margin-bottom: 0; }
+
+.calendar-photo__event-preview { height: 286px !important; }
+
+.designer__photo_name { float: left; margin: 20px 30px; }
+
+.calendar-photo__event-title-new { font-size: 30px; text-transform: none; margin-top: 20px; }
+
+.i_new { text-transform: none; font-size: 12px; }
+
+.designer__photo { width: 70px; height: 70px; margin: 10px auto 30px; }
+
+.calendar-photo__description { margin-bottom: 30px; width: 600px; }
+
+.designer__photo { width: 70px; height: 70px; margin: 10px auto 30px; float: left; }
+
+@media (max-width: 992px) { .calendar-photo__event { width: 100% !important; padding: 0; }
+  .calendar-photo__event-a { width: 100%; margin-bottom: 0; display: inline-block; text-align: center; }
+  .designer__photo_name { float: none; }
+  .calendar-photo__event-preview { height: 286px !important; width: 100% !important; }
+  .calendar-photo__description { width: auto !important; } }
 
 /*# sourceMappingURL=main.css.map */

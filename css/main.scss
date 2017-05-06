@@ -5179,6 +5179,7 @@ button:focus {
   height: 100px;
   margin: 0 auto 30px;
   border-radius: 50%;
+  background-size: 70px !important;
   background-repeat: no-repeat;
   -webkit-transition: opacity .3s ease;
           transition: opacity .3s ease;
@@ -5208,7 +5209,7 @@ button:focus {
           transition: transform 0.3s cubic-bezier(0.23, 0.85, 0.7, 1.01);
 }
 @media (max-width: 768px) {
-  .designer__info {
+.designer__info {
     margin-top: 20px;
   } 
 }
@@ -6317,9 +6318,9 @@ body::before {
   .calendar-photo__event {
     width: 100%;
   }
-  .calendar-photo__event-preview {
-    width: 279px;
-  }
+  // .calendar-photo__event-preview {
+  //   width: 279px;
+  // }
   h2 {
     font-size: 46px;
   }
@@ -6598,4 +6599,76 @@ body::before {
     padding: 35px 15px 30px;
     background-color: #f2f2f2;
     min-height: 340px;
+}
+
+.redline {
+   position: absolute;
+   right: 0;
+   top: 0;
+   z-index: 2;
+   pointer-events: none;
+   transform: translateZ(0);
+}
+/*--<h3>Проекты</h3>8*/
+.calendar-photo__event {
+  width: 49% !important;
+}
+.calendar-photo__event-a {
+  width: 100% !important;
+  margin-bottom: 0;
+}
+.calendar-photo__event-preview {
+  height: 286px !important;
+}
+.designer__photo_name {
+  float: left;
+  margin: 20px 30px;
+}
+.calendar-photo__event-title-new {
+  font-size: 30px;
+  text-transform: none;
+  margin-top: 20px;
+}
+.i_new {
+  text-transform: none;
+  font-size: 12px;
+}
+.designer__photo {
+  width: 70px;
+  height: 70px;
+  margin: 10px auto 30px;
+}
+ .calendar-photo__description {
+  margin-bottom:30px;
+  width: 600px;
+ }
+.designer__photo {
+    width: 70px;
+    height: 70px;
+    margin: 10px auto 30px;
+    float: left;
+}
+
+@media (max-width: 992px) {
+  .calendar-photo__event {
+    width: 100% !important;
+    padding: 0;
+  }
+  .calendar-photo__event-a {
+    width: 100%;
+    margin-bottom: 0;
+    display: inline-block;
+    text-align: center;
+  }
+  .designer__photo_name {
+   float: none; 
+  }
+
+  .calendar-photo__event-preview {
+    height: 286px !important;
+    width: 100% !important;    
+  }
+  .calendar-photo__description {
+    width: auto !important;
+  }
 }

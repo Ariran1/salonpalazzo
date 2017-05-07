@@ -2064,7 +2064,7 @@ button:focus { outline: none; }
 
 .inner-bg .logo { margin: 0; }
 
-.content-box { width: 440px; height: 450px; margin: 0 auto; padding-top: 60px; padding-left: 30px; }
+.content-box { width: 440px; margin: 0 auto; padding-top: 60px; padding-left: 30px; }
 
 .content-box--contacts { padding: 0; }
 
@@ -2171,7 +2171,7 @@ body::before { position: fixed; top: -60px; left: 0; z-index: 9; width: 100%; he
 
 .main-contacts { position: relative; height: 800px; }
 
-.main-contacts .content-box { z-index: 10; background-image: -webkit-linear-gradient(100deg, #ca9d40 0%, #b06c2a 35%, #c08a38 80%); background-image: -ms-linear-gradient(100deg, #ca9d40 0%, #b06c2a 35%, #c08a38 80%); position: absolute; top: 50%; left: 50%; padding-top: 0; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.main-contacts .content-box { z-index: 10;position: relative; padding-top: 0; height:100%; }
 
 .main-contacts .subtitle { color: #2d2c2c; }
 
@@ -2179,7 +2179,9 @@ body::before { position: fixed; top: -60px; left: 0; z-index: 9; width: 100%; he
 
 .main-contacts .slider li { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-.main-contacts__content { padding-left: 30px; padding-right: 30px; }
+.main-contacts__content { display: inline-block; vertical-align: middle; padding: 10px 30px 30px;  background-image: -webkit-linear-gradient(100deg, #ca9d40 0%, #b06c2a 35%, #c08a38 80%); background-image: -ms-linear-gradient(100deg, #ca9d40 0%, #b06c2a 35%, #c08a38 80%); }
+
+.verticalAlignMethod{ vertical-align: middle;width: 0;height: 100%;display: inline-block;}
 
 .main-contacts__address { color: #fff; padding-top: 20px; }
 

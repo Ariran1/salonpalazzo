@@ -46,7 +46,7 @@ var app = {
     init: function() {
         this.mobile = $(window).width() < 768;
 
-        this.scroll();
+        //this.scroll();
         this.sideNavigation.init();
         !this.mobile && app.grid('.js-grid');
         this.innerPage = $('.main--inner').length;

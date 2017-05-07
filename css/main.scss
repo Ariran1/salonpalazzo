@@ -5118,7 +5118,6 @@ button:focus {
 }
 .content-box {
   width: 440px;
-  height: 450px;
   margin: 0 auto;
   padding-top: 60px;
   padding-left: 30px;
@@ -5473,8 +5472,7 @@ body::before {
   height: 100%;
 }
 .main-contacts__content {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 30px 30px;
 }
 .main-contacts__address {
   color: #fff;
@@ -6641,4 +6639,8 @@ body::before {
   // }
 }
 
+
+body {
+  background: red !important;
+}
 
